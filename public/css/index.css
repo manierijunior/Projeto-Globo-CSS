@@ -1,8 +1,23 @@
+/* Estilos da Página Index */ 
+
+.cover-container figure img {
+
+    width: 100%;
+}
+
+
+.title {
+
+    color: purple;
+}
+
 .titulo {
-    color: chocolate;
+
+    color: #f2116c;
+} 
+
+.titulo1 {
+
+    color: purple;
 }
 
-.menu ul li a {
-
-    color: coral;
-}

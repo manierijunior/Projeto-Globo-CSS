@@ -4,8 +4,13 @@
 
 <head>
         <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="public/css/header.css"/> 
         <link rel="stylesheet" href="public/css/index.css"/>
-            <title>Tv Globo</title>
+        <link rel="stylesheet" href="public/css/globo.css" />
+        <!-- <link rel="stylesheet" href="public/css/botao.css" />     ** Estilo CSS DO BOTÃO -->    
+        
+        <title>Tv Globo</title>
 
 </head>
 
@@ -14,25 +19,44 @@
      
     <header>
 
-        <h1 class="titulo">Tv Globo</h1>
+
+        <a href="index.html" class="link-logo">
+            <img  class="imagem" src="public/fotos/logo 2.png" alt="Logo Globo" width="100%" />
+
+        </a>
 
         <nav class="menu">
                     <ul>
-                         <li><a href="index.html"> História </a></li>
-                         <li><a href="emissoras.html"> Emissoras e Afiliadas </a></li>
-                         <li><a href="https://redeglobo.globo.com/novidades/noticia/como-assistir-tv-globo-sinal-digital-sua-regiao.ghtml">Sinal Digital</a></li>
-                         <li><a href="faleconosco.html">Fale Conosco</a></li>
-
-
+                        
+                        <!--
+                        <br> <br>
+                         <button class="glow-on-hover" type="button"><a href="index.html">história</a></button>
+                          <br> <br>
+                         <button class="glow-on-hover" type="button"><a href="emissoras.html">emissoras e afiliadas</a></button>
+                         <br> <br>
+                         <button class="glow-on-hover" type="button"><a href="https://redeglobo.globo.com/novidades/noticia/como-assistir-tv-globo-sinal-digital-sua-regiao.ghtml">sinal digital</a></button>
+                         <br> <br>
+                         <button class="glow-on-hover" type="button"><a href="faleconosco.html">fale conosco</a></button>
+                            <br> <br>
+                        
+                        -->
+                    
+                        <li><a href="emissoras.html"> Emissoras</a></li>
+                        <li><a href="https://redeglobo.globo.com/novidades/noticia/como-assistir-tv-globo-sinal-digital-sua-regiao.ghtml">Sinal Digital</a></li>
+                        <li><a href="faleconosco.html">Fale Conosco</a></li>
+    
                     </ul>        
 
         </nav>
 
-                <main>
-
-                    <section>
-                        <img src="public/fotos/logo 1.png" width="500" 
-                        alt = "Rede Globo"/>
+            <main>
+                <h1 class="title">Tv Globo</h1>
+                
+                <section class="cover-container">
+                        <figure>
+                            <img src="public/fotos/logo 4.png" alt = "Rede Globo"/>
+                           <figcaption>  </figcaption>
+                        </figure>
                     </section>
 
                     <section>
@@ -52,23 +76,23 @@
         <table>
             <thead>
 
-                <th> Emissoras </th> 
-                <th>Estado</th> 
+                <th class="titulo1"> Emissoras </th> 
+                <th class="titulo1">Estado</th> 
                 
             </thead>
             <tbody>
                     <tr>
 
-                        <td><a href="https://redeglobo.globo.com/rio/"> TV Globo Rio </a></td>
-                        <td>RJ</td>
+                        <td><a class="titulo" href="https://redeglobo.globo.com/rio/"> TV Globo Rio </a></td>
+                        <td class="titulo">RJ</td>
                     
                     </tr>
             </tbody>
 
             <tbody>
                 <tr>
-                    <td><a href="https://redeglobo.globo.com/sao-paulo/" > TV Globo São Paulo </a></td>
-                    <td>SP</td>
+                    <td><a  class="titulo" href="https://redeglobo.globo.com/sao-paulo/" > TV Globo São Paulo </a></td>
+                    <td class="titulo">SP</td>
 
                 </tr>
         </tbody>
@@ -81,30 +105,30 @@
 <table>
     <thead>
 
-        <th>Filiais </th> 
-        <th>Estado</th> 
+        <th class="titulo1">Filiais </th> 
+        <th class="titulo1">Estado</th> 
         
     </thead>
     <tbody>
             <tr>
 
-                <td><a href="https://redeglobo.globo.com/globominas/"> TV Globo Minas </a></td>
-                <td>MG</td>
+                <td><a class="titulo" href="https://redeglobo.globo.com/globominas/"> TV Globo Minas </a></td>
+                <td class="titulo">MG</td>
             
             </tr>
     </tbody>
 
     <tbody>
         <tr>
-            <td><a href="https://redeglobo.globo.com/globobrasilia/"> TV Globo Brasília </a></td>
-            <td>DF</td>
+            <td><a class="titulo" href="https://redeglobo.globo.com/globobrasilia/"> TV Globo Brasília </a></td>
+            <td class="titulo">DF</td>
 
         </tr>
 
         <tbody>
             <tr>
-                <td><a href="https://redeglobo.globo.com/globonordeste/"> TV Globo Pernambuco</a></td>
-                <td>PE</td>
+                <td><a class="titulo" href="https://redeglobo.globo.com/globonordeste/"> TV Globo Pernambuco</a></td>
+                <td class="titulo">PE</td>
     
             </tr>
 </tbody>
