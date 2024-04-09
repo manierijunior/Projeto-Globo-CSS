@@ -19,5 +19,11 @@
 .titulo1 {
 
     color: purple;
+} 
+
+.paragrafo{
+    text-align:justify;
+    padding: 5%;
+
 }
 
