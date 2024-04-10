@@ -26,7 +26,7 @@ header nav ul li:not(:last-child) {
 
 .menu li a {
 
-    color: orangered;
+    color: #f25811;
     text-decoration: none;
     
 }
@@ -61,11 +61,4 @@ header nav ul li:not(:last-child) {
         padding: 0% 35%;
     }
 
-    .rodape {
-        padding: 44%;
-    }
-
-    .rodape1 {
-        padding: 40%;
-    }
 }

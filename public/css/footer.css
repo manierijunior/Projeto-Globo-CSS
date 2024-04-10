@@ -1,0 +1,11 @@
+/* ESTILOS RELACIONADOS AO RODAPÉ */ 
+
+footer {
+
+    text-align: center;
+    border-top: 1px solid orangered;
+    padding: 20px;
+    width: 75%;
+    margin: auto;
+    text-transform: lowercase;
+}
