@@ -9,3 +9,13 @@ footer {
     margin: auto;
     text-transform: lowercase;
 }
+
+footer section span:first-child{
+    color: #f2116c;
+
+}
+
+footer section span:last-child{
+    color: white ;
+
+}
