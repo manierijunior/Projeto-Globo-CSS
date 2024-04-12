@@ -51,6 +51,7 @@ header nav ul li:not(:last-child) {
         top: 20%;
     }
 
+
     .imagem {
         width: 35%;
         padding: 0% 35%;
@@ -67,5 +68,10 @@ header nav ul li:not(:last-child) {
 
     .rodape1 {
         padding: 40%;
+    }
+
+    .mensagem {
+
+        padding: 5% 10% 10%;
     }
 }

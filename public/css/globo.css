@@ -7,8 +7,26 @@ html{
 }
 body {
         background-color: black;
-        font-family: fantasy;
+        font-family:Stencil Std, fantasy;
         color:orangered;
         margin: 0;
 
 }
+
+.title{
+
+        padding: 0 20px;
+}
+
+
+@media screen and (min-width: 992px) {
+    
+        .title{
+                padding: 0 2%;
+        }
+    
+
+        .title2{
+                padding: 0 2%;
+        }
+    }

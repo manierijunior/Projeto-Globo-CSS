@@ -1,5 +1,8 @@
 /* Estilos da Página Index */ 
 
+
+
+
 .cover-container figure img {
 
     width: 100%;
@@ -27,3 +30,28 @@
 
 }
 
+
+
+tbody tr td  {
+
+    padding: 5% 2%;
+}
+
+.tabela{
+
+    padding: 0 20%;
+}
+
+@media screen and (min-width: 992px) {
+    header {
+        position: relative;
+
+    }
+
+    .menu {
+        position: absolute;
+        right: 3%;
+        top: 15%;
+    }
+
+}

@@ -46,9 +46,10 @@ header nav ul li:not(:last-child) {
     }
 
     .menu {
-        position: absolute;
+        position:absolute;
         right: 3%;
         top: 16%;
+    
     }
 
     .imagem {
