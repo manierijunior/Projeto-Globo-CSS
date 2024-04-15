@@ -48,16 +48,17 @@ header nav ul li:not(:last-child) {
     .menu {
         position: absolute;
         right: 3%;
-        top: 13%;
+        top: 19%;
     }
     .imagem {
         width: 35%;
         padding: 0% 35%;
     }
 
+    
     .cover-container {
-        width: 25%;
-        padding: 0% 35%;
+        width: 30%;
+        padding: 0% 10% 2%;
     }
 
     .rodape {
@@ -68,5 +69,20 @@ header nav ul li:not(:last-child) {
         padding: 40%;
     }
 
+
+    .title{
+        margin: 2% 10%;
+
+    }    
+     .paragrafo,
+     .cover-container{
+        display: inline-block;
+
+    }
+
+    .paragrafo{
+        margin: 0% 8%;
+    }
  
 }
+

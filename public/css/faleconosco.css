@@ -8,6 +8,22 @@ header .link-logo {
 
 }
 
+
+.title {
+
+    color: purple;
+}
+
+.titulo {
+
+    color: #f2116c;
+} 
+
+.titulo1 {
+
+    color: purple;
+} 
+
 header nav ul {
     padding: 0;
     text-align: center;
@@ -48,7 +64,7 @@ header nav ul li:not(:last-child) {
     .menu {
         position: absolute;
         right: 3%;
-        top: 20%;
+        top: 23%;
     }
 
 
@@ -58,8 +74,8 @@ header nav ul li:not(:last-child) {
     }
 
     .cover-container {
-        width: 25%;
-        padding: 0% 35%;
+        width: 30%;
+        
     }
 
     .rodape {
@@ -72,6 +88,11 @@ header nav ul li:not(:last-child) {
 
     .mensagem {
 
-        padding: 5% 10% 10%;
+        padding: 6% 10%;
+    }
+
+    .mensagem,
+    .cover-container{
+        display: inline-block;
     }
 }

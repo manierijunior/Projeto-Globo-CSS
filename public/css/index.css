@@ -54,4 +54,15 @@ tbody tr td  {
         top: 15%;
     }
 
-}
+     .cover-container, 
+     .section-video{
+        display: inline-block;
+
+    }
+
+    .cover-container{
+        margin: 0% 15%;
+    }
+                    
+                   
+}          
