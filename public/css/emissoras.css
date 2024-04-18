@@ -39,6 +39,19 @@ header nav ul li:not(:last-child) {
     
 }
 
+
+.paragrafo p1 a{
+    padding: 25px 20px; 
+    color: #f2116c;
+}
+
+.title2 {
+    padding: 1% 20px; 
+    color: #f2116c;
+
+}
+
+
 @media screen and (min-width: 992px) {
     header {
         position: relative;
@@ -48,7 +61,7 @@ header nav ul li:not(:last-child) {
     .menu {
         position: absolute;
         right: 3%;
-        top: 19%;
+        top: 15.5%;
     }
     .imagem {
         width: 35%;
@@ -57,8 +70,11 @@ header nav ul li:not(:last-child) {
 
     
     .cover-container {
-        width: 30%;
-        padding: 0% 10% 2%;
+        width: 30%; 
+        text-align: center;
+        padding-top: 1%;
+       
+    
     }
 
     .rodape {
@@ -80,9 +96,17 @@ header nav ul li:not(:last-child) {
 
     }
 
-    .paragrafo{
-        margin: 0% 8%;
+    .paragrafo p1 a{
+        padding: 25px 240px; 
+        color: #f2116c;
     }
+
+    .title2 {
+        padding: 1% 240px; 
+        color: purple;
+
+    }
+
  
 }
 

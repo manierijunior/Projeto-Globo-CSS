@@ -30,6 +30,13 @@
 
 }
 
+.section-video{
+
+    text-align: center;
+    
+    }
+
+          
 
 
 tbody tr td  {
@@ -51,7 +58,7 @@ tbody tr td  {
     .menu {
         position: absolute;
         right: 3%;
-        top: 15%;
+        top: 11.5%;
     }
 
      .cover-container, 
@@ -61,8 +68,21 @@ tbody tr td  {
     }
 
     .cover-container{
-        margin: 0% 15%;
+        margin: 2% 8%;
     }
+    
+.section-video video{
+
+    width: 640px;; 
+    height: 480px;
+    
+    }
+
+    .section-video{
+ 
+       padding: 1% 1.5%;
+       margin-bottom: 2%; 
+        }
                     
                    
 }          
