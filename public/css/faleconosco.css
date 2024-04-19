@@ -55,6 +55,16 @@ header nav ul li:not(:last-child) {
     
 }
 
+ .mensagem section {
+    color: #f2116c;
+    padding: 8px 15px;
+
+ }
+
+ .mensagem h2 {
+        padding: 0px 15px;
+ }
+
 @media screen and (min-width: 992px) {
     header {
         position: relative;
@@ -95,4 +105,11 @@ header nav ul li:not(:last-child) {
     .cover-container{
         display: inline-block;
     }
+
+    .mensagem section {
+        color: #f2116c;
+        padding: 8px 15px;
+    
+     }
+
 }
